@@ -66,9 +66,11 @@ header {
     margin-top: 2.4vh;
 }
 .yellow-box{
-    background: yellow;
-    height:75%;
-    width:80%;
+    background: rgba(247, 247, 176, 0.541);
+    margin: 35px 25px;
+    height:70%;
+    width:92%;
+    box-shadow: 8px 8px 3px rgb(61, 61, 61);
 }
 .friend-box{
     border: 1px solid black;
