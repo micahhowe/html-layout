@@ -59,6 +59,29 @@ header {
     margin: 0 5vw;
     margin-top: 2.4vh;
 }
+.purple-rect {
+    background: rgb(168, 42, 199);
+    display:inline-block;
+    height:120px;
+    width:40px;
+    margin-left:15px;
+    margin-bottom:10px;
+}
+.green-square {
+    background: rgb(63, 148, 77);
+    display:inline-block;
+    height:160px;
+    width:360px;
+    margin: 10px 50px 10px 45px;
+}
+.blue-circle{
+    background: rgb(113, 202, 243);
+    display:inline-block;
+    height:160px;
+    width:160px;
+    border-radius:50%;
+    margin-bottom:10px;
+}
 .dotted-box{
     border: 5px dotted black;
     height: 26.5vh;
@@ -74,7 +97,7 @@ header {
 }
 .friend-box{
     border: 1px solid black;
-    height: 29vh;
+    height: 33vh;
     margin: 0 28vw 2vw 28vw;
     margin-top: 2.4vh; 
     box-shadow: 3px 2px 8px lightgrey;
@@ -86,4 +109,9 @@ footer{
 div p {
     margin-top: 24%;
     text-align: center;
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
+    font-size: 28px;
+    font-weight: bold;
 }
