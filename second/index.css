@@ -1,0 +1,87 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+    height: 6.6vh;
+    background:black;
+}
+.white-background{
+    height: 80vh;
+}
+.solid-box{
+    border: 5px solid black;
+    height: 19.5vh;
+    margin: 0 5vw;
+    margin-top: 2.4vh;
+}
+.dotted-box{
+    border: 5px dotted black;
+    height: 26.5vh;
+    margin: 0 5vw;
+    margin-top: 2.4vh;
+}
+.yellow-box{
+    background: yellow;
+    height:75%;
+    width:80%;
+}
+.friend-box{
+    border: 1px solid black;
+    height: 29vh;
+    margin: 0 28vw 2vw 28vw;
+    margin-top: 2.4vh; 
+    box-shadow: 3px 2px 8px lightgrey;
+}
+footer{
+    height: 6.6vh;
+    background:black;
+}
+div p {
+    margin-top: 24%;
+    text-align: center;
+}
